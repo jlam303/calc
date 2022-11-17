@@ -7,24 +7,32 @@
     "n7 n8 n9 divide"
     "n4 n5 n6 multiply"
     "n1 n2 n3 subtract"
-    "n0 output output add"
+    "n0 output clearNum add"
     ;
 }
 div > div > button{
     width: 20vmin;
+    border: 2px solid black;
+    font-size: larger;
+}
+#clearNum{
+    grid-area: clearNum;
 }
 #screen{
     grid-area: screen;
+    padding: 0%;
 }
 #screen >input{
-    width: 80vmin;
+    font-size: larger;
+    width: 79.6vmin;
     padding: 0%;
+    border: 2px solid black;
 }
 #output {
     grid-area: output;
 }
 #output > button{
-    width: 40vmin;
+    width: 20vmin;
 }
 #add {
     grid-area: add;
