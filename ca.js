@@ -1,4 +1,4 @@
-function insertNum(num)
+function insertNum(num) 
 {
     document.getElementById("inputScreen").value +=num;
 }
